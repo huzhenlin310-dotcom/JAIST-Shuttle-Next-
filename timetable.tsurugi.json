@@ -1,0 +1,1301 @@
+{
+  "routeId": "tsurugi",
+  "routeName": "JAIST Shuttle Tsurugi Line",
+  "revisionDate": "2026-04-01",
+  "sourceUrl": "https://www.jaist.ac.jp/top/data/shuttle_turugi2026-2.pdf",
+  "accessPageUrl": "https://www.jaist.ac.jp/english/top/access/",
+  "timezone": "Asia/Tokyo",
+  "holidayDates": [
+    "2026-01-01",
+    "2026-01-12",
+    "2026-02-11",
+    "2026-02-23",
+    "2026-03-20",
+    "2026-04-29",
+    "2026-05-03",
+    "2026-05-04",
+    "2026-05-05",
+    "2026-05-06",
+    "2026-07-20",
+    "2026-08-11",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-10-12",
+    "2026-11-03",
+    "2026-11-23"
+  ],
+  "services": [
+    {
+      "id": "weekday",
+      "labelJa": "平日",
+      "labelEn": "Weekdays"
+    },
+    {
+      "id": "satSunHoliday",
+      "labelJa": "土日祝",
+      "labelEn": "Sat/Sun/Holidays"
+    }
+  ],
+  "stops": [
+    {
+      "id": "tsurugi",
+      "labelJa": "鶴来駅",
+      "labelEn": "Tsurugi"
+    },
+    {
+      "id": "tsurugi-honmachi",
+      "labelJa": "鶴来本町",
+      "labelEn": "Tsurugi honmachi"
+    },
+    {
+      "id": "hon-tsurugi",
+      "labelJa": "本鶴来",
+      "labelEn": "Hon-tsurugi"
+    },
+    {
+      "id": "iwamoto",
+      "labelJa": "岩本",
+      "labelEn": "Iwamoto"
+    },
+    {
+      "id": "todashino",
+      "labelJa": "灯台笹",
+      "labelEn": "Todashino"
+    },
+    {
+      "id": "miyatake",
+      "labelJa": "宮竹ヘルスロード",
+      "labelEn": "Miyatake"
+    },
+    {
+      "id": "haiteku-mae",
+      "labelJa": "ハイテクセンター前",
+      "labelEn": "Haiteku-mae"
+    },
+    {
+      "id": "jaist",
+      "labelJa": "大学院",
+      "labelEn": "JAIST"
+    }
+  ],
+  "directions": [
+    {
+      "id": "to-jaist",
+      "labelJa": "大学院行き",
+      "labelEn": "to JAIST",
+      "stopIds": [
+        "tsurugi",
+        "tsurugi-honmachi",
+        "hon-tsurugi",
+        "iwamoto",
+        "todashino",
+        "miyatake",
+        "haiteku-mae",
+        "jaist"
+      ]
+    },
+    {
+      "id": "to-tsurugi",
+      "labelJa": "鶴来駅行き",
+      "labelEn": "to Tsurugi",
+      "stopIds": [
+        "jaist",
+        "haiteku-mae",
+        "miyatake",
+        "todashino",
+        "iwamoto",
+        "hon-tsurugi",
+        "tsurugi-honmachi",
+        "tsurugi"
+      ]
+    }
+  ],
+  "trips": [
+    {
+      "id": "weekday-to-jaist-001",
+      "serviceId": "weekday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "6:57",
+        "tsurugi-honmachi": "6:59",
+        "hon-tsurugi": "7:00",
+        "iwamoto": "7:03",
+        "todashino": "7:04",
+        "miyatake": "7:05",
+        "haiteku-mae": "7:07",
+        "jaist": "7:10"
+      }
+    },
+    {
+      "id": "weekday-to-jaist-002",
+      "serviceId": "weekday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "7:37",
+        "tsurugi-honmachi": "7:39",
+        "hon-tsurugi": "7:40",
+        "iwamoto": "7:43",
+        "todashino": "7:44",
+        "miyatake": "7:45",
+        "haiteku-mae": "7:47",
+        "jaist": "7:50"
+      }
+    },
+    {
+      "id": "weekday-to-jaist-003",
+      "serviceId": "weekday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "8:16",
+        "tsurugi-honmachi": "8:18",
+        "hon-tsurugi": "8:19",
+        "iwamoto": "8:22",
+        "todashino": "8:23",
+        "miyatake": "8:24",
+        "haiteku-mae": "8:26",
+        "jaist": "8:28"
+      }
+    },
+    {
+      "id": "weekday-to-jaist-004",
+      "serviceId": "weekday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "8:38",
+        "tsurugi-honmachi": "8:40",
+        "hon-tsurugi": "8:41",
+        "iwamoto": "8:44",
+        "todashino": "8:45",
+        "miyatake": "8:46",
+        "haiteku-mae": "8:48",
+        "jaist": "8:51"
+      }
+    },
+    {
+      "id": "weekday-to-jaist-005",
+      "serviceId": "weekday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "8:57",
+        "tsurugi-honmachi": "8:59",
+        "hon-tsurugi": "9:00",
+        "iwamoto": "9:03",
+        "todashino": "9:04",
+        "miyatake": "9:05",
+        "haiteku-mae": "9:07",
+        "jaist": "9:10"
+      }
+    },
+    {
+      "id": "weekday-to-jaist-006",
+      "serviceId": "weekday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "9:38",
+        "tsurugi-honmachi": "9:40",
+        "hon-tsurugi": "9:41",
+        "iwamoto": "9:44",
+        "todashino": "9:45",
+        "miyatake": "9:46",
+        "haiteku-mae": "9:48",
+        "jaist": "9:51"
+      }
+    },
+    {
+      "id": "weekday-to-jaist-007",
+      "serviceId": "weekday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "10:12",
+        "tsurugi-honmachi": "10:14",
+        "hon-tsurugi": "10:15",
+        "iwamoto": "10:18",
+        "todashino": "10:19",
+        "miyatake": "10:20",
+        "haiteku-mae": "10:22",
+        "jaist": "10:25"
+      }
+    },
+    {
+      "id": "weekday-to-jaist-008",
+      "serviceId": "weekday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "11:22",
+        "tsurugi-honmachi": "11:24",
+        "hon-tsurugi": "11:25",
+        "iwamoto": "11:28",
+        "todashino": "11:29",
+        "miyatake": "11:30",
+        "haiteku-mae": "11:32",
+        "jaist": "11:35"
+      }
+    },
+    {
+      "id": "weekday-to-jaist-009",
+      "serviceId": "weekday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "12:16",
+        "tsurugi-honmachi": "12:18",
+        "hon-tsurugi": "12:19",
+        "iwamoto": "12:22",
+        "todashino": "12:23",
+        "miyatake": "12:24",
+        "haiteku-mae": "12:26",
+        "jaist": "12:29"
+      }
+    },
+    {
+      "id": "weekday-to-jaist-010",
+      "serviceId": "weekday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "12:58",
+        "tsurugi-honmachi": "13:00",
+        "hon-tsurugi": "13:01",
+        "iwamoto": "13:04",
+        "todashino": "13:05",
+        "miyatake": "13:06",
+        "haiteku-mae": "13:08",
+        "jaist": "13:11"
+      }
+    },
+    {
+      "id": "weekday-to-jaist-011",
+      "serviceId": "weekday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "13:38",
+        "tsurugi-honmachi": "13:40",
+        "hon-tsurugi": "13:41",
+        "iwamoto": "13:44",
+        "todashino": "13:45",
+        "miyatake": "13:46",
+        "haiteku-mae": "13:48",
+        "jaist": "13:51"
+      }
+    },
+    {
+      "id": "weekday-to-jaist-012",
+      "serviceId": "weekday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "14:35",
+        "tsurugi-honmachi": "14:37",
+        "hon-tsurugi": "14:38",
+        "iwamoto": "14:41",
+        "todashino": "14:42",
+        "miyatake": "14:43",
+        "haiteku-mae": "14:45",
+        "jaist": "14:48"
+      }
+    },
+    {
+      "id": "weekday-to-jaist-013",
+      "serviceId": "weekday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "15:08",
+        "tsurugi-honmachi": "15:10",
+        "hon-tsurugi": "15:11",
+        "iwamoto": "15:14",
+        "todashino": "15:15",
+        "miyatake": "15:16",
+        "haiteku-mae": "15:18",
+        "jaist": "15:21"
+      }
+    },
+    {
+      "id": "weekday-to-jaist-014",
+      "serviceId": "weekday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "15:45",
+        "tsurugi-honmachi": "15:47",
+        "hon-tsurugi": "15:48",
+        "iwamoto": "15:51",
+        "todashino": "15:52",
+        "miyatake": "15:53",
+        "haiteku-mae": "15:55",
+        "jaist": "15:58"
+      }
+    },
+    {
+      "id": "weekday-to-jaist-015",
+      "serviceId": "weekday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "16:33",
+        "tsurugi-honmachi": "16:35",
+        "hon-tsurugi": "16:36",
+        "iwamoto": "16:39",
+        "todashino": "16:40",
+        "miyatake": "16:41",
+        "haiteku-mae": "16:43",
+        "jaist": "16:46"
+      }
+    },
+    {
+      "id": "weekday-to-jaist-016",
+      "serviceId": "weekday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "17:10",
+        "tsurugi-honmachi": "17:12",
+        "hon-tsurugi": "17:13",
+        "iwamoto": "17:16",
+        "todashino": "17:17",
+        "miyatake": "17:18",
+        "haiteku-mae": "17:20",
+        "jaist": "17:23"
+      }
+    },
+    {
+      "id": "weekday-to-jaist-017",
+      "serviceId": "weekday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "17:47",
+        "tsurugi-honmachi": "17:49",
+        "hon-tsurugi": "17:50",
+        "iwamoto": "17:53",
+        "todashino": "17:54",
+        "miyatake": "17:55",
+        "haiteku-mae": "17:57",
+        "jaist": "18:00"
+      }
+    },
+    {
+      "id": "weekday-to-jaist-018",
+      "serviceId": "weekday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "18:20",
+        "tsurugi-honmachi": "18:22",
+        "hon-tsurugi": "18:23",
+        "iwamoto": "18:26",
+        "todashino": "18:27",
+        "miyatake": "18:28",
+        "haiteku-mae": "18:30",
+        "jaist": "18:33"
+      }
+    },
+    {
+      "id": "weekday-to-jaist-019",
+      "serviceId": "weekday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "19:45",
+        "tsurugi-honmachi": "19:47",
+        "hon-tsurugi": "19:48",
+        "iwamoto": "19:51",
+        "todashino": "19:52",
+        "miyatake": "19:53",
+        "haiteku-mae": "19:55",
+        "jaist": "19:58"
+      }
+    },
+    {
+      "id": "weekday-to-jaist-020",
+      "serviceId": "weekday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "20:27",
+        "tsurugi-honmachi": "20:29",
+        "hon-tsurugi": "20:30",
+        "iwamoto": "20:33",
+        "todashino": "20:34",
+        "miyatake": "20:35",
+        "haiteku-mae": "20:37",
+        "jaist": "20:40"
+      }
+    },
+    {
+      "id": "weekday-to-jaist-021",
+      "serviceId": "weekday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "21:08",
+        "tsurugi-honmachi": "21:10",
+        "hon-tsurugi": "21:11",
+        "iwamoto": "21:14",
+        "todashino": "21:15",
+        "miyatake": "21:16",
+        "haiteku-mae": "21:18",
+        "jaist": "21:21"
+      }
+    },
+    {
+      "id": "weekday-to-tsurugi-001",
+      "serviceId": "weekday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "6:40",
+        "haiteku-mae": "6:41",
+        "miyatake": "6:43",
+        "todashino": "6:44",
+        "iwamoto": "6:45",
+        "hon-tsurugi": "6:48",
+        "tsurugi-honmachi": "6:50",
+        "tsurugi": "6:53"
+      }
+    },
+    {
+      "id": "weekday-to-tsurugi-002",
+      "serviceId": "weekday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "7:20",
+        "haiteku-mae": "7:21",
+        "miyatake": "7:23",
+        "todashino": "7:24",
+        "iwamoto": "7:25",
+        "hon-tsurugi": "7:28",
+        "tsurugi-honmachi": "7:30",
+        "tsurugi": "7:33"
+      }
+    },
+    {
+      "id": "weekday-to-tsurugi-003",
+      "serviceId": "weekday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "8:00",
+        "haiteku-mae": "8:01",
+        "miyatake": "8:03",
+        "todashino": "8:04",
+        "iwamoto": "8:05",
+        "hon-tsurugi": "8:08",
+        "tsurugi-honmachi": "8:10",
+        "tsurugi": "8:13"
+      }
+    },
+    {
+      "id": "weekday-to-tsurugi-004",
+      "serviceId": "weekday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "8:42",
+        "haiteku-mae": "8:43",
+        "miyatake": "8:45",
+        "todashino": "8:46",
+        "iwamoto": "8:47",
+        "hon-tsurugi": "8:50",
+        "tsurugi-honmachi": "8:52",
+        "tsurugi": "8:55"
+      }
+    },
+    {
+      "id": "weekday-to-tsurugi-005",
+      "serviceId": "weekday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "9:20",
+        "haiteku-mae": "9:21",
+        "miyatake": "9:23",
+        "todashino": "9:24",
+        "iwamoto": "9:25",
+        "hon-tsurugi": "9:28",
+        "tsurugi-honmachi": "9:30",
+        "tsurugi": "9:33"
+      }
+    },
+    {
+      "id": "weekday-to-tsurugi-006",
+      "serviceId": "weekday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "9:55",
+        "haiteku-mae": "9:56",
+        "miyatake": "9:58",
+        "todashino": "9:59",
+        "iwamoto": "10:00",
+        "hon-tsurugi": "10:03",
+        "tsurugi-honmachi": "10:05",
+        "tsurugi": "10:08"
+      }
+    },
+    {
+      "id": "weekday-to-tsurugi-007",
+      "serviceId": "weekday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "11:07",
+        "haiteku-mae": "11:08",
+        "miyatake": "11:10",
+        "todashino": "11:11",
+        "iwamoto": "11:12",
+        "hon-tsurugi": "11:15",
+        "tsurugi-honmachi": "11:17",
+        "tsurugi": "11:20"
+      }
+    },
+    {
+      "id": "weekday-to-tsurugi-008",
+      "serviceId": "weekday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "12:01",
+        "haiteku-mae": "12:02",
+        "miyatake": "12:04",
+        "todashino": "12:05",
+        "iwamoto": "12:06",
+        "hon-tsurugi": "12:09",
+        "tsurugi-honmachi": "12:11",
+        "tsurugi": "12:14"
+      }
+    },
+    {
+      "id": "weekday-to-tsurugi-009",
+      "serviceId": "weekday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "12:43",
+        "haiteku-mae": "12:44",
+        "miyatake": "12:46",
+        "todashino": "12:47",
+        "iwamoto": "12:48",
+        "hon-tsurugi": "12:51",
+        "tsurugi-honmachi": "12:53",
+        "tsurugi": "12:56"
+      }
+    },
+    {
+      "id": "weekday-to-tsurugi-010",
+      "serviceId": "weekday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "13:22",
+        "haiteku-mae": "13:23",
+        "miyatake": "13:25",
+        "todashino": "13:26",
+        "iwamoto": "13:27",
+        "hon-tsurugi": "13:30",
+        "tsurugi-honmachi": "13:32",
+        "tsurugi": "13:35"
+      }
+    },
+    {
+      "id": "weekday-to-tsurugi-011",
+      "serviceId": "weekday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "14:20",
+        "haiteku-mae": "14:21",
+        "miyatake": "14:23",
+        "todashino": "14:24",
+        "iwamoto": "14:25",
+        "hon-tsurugi": "14:28",
+        "tsurugi-honmachi": "14:30",
+        "tsurugi": "14:33"
+      }
+    },
+    {
+      "id": "weekday-to-tsurugi-012",
+      "serviceId": "weekday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "14:53",
+        "haiteku-mae": "14:54",
+        "miyatake": "14:56",
+        "todashino": "14:57",
+        "iwamoto": "14:58",
+        "hon-tsurugi": "15:01",
+        "tsurugi-honmachi": "15:03",
+        "tsurugi": "15:06"
+      }
+    },
+    {
+      "id": "weekday-to-tsurugi-013",
+      "serviceId": "weekday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "15:30",
+        "haiteku-mae": "15:31",
+        "miyatake": "15:33",
+        "todashino": "15:34",
+        "iwamoto": "15:35",
+        "hon-tsurugi": "15:38",
+        "tsurugi-honmachi": "15:40",
+        "tsurugi": "15:43"
+      }
+    },
+    {
+      "id": "weekday-to-tsurugi-014",
+      "serviceId": "weekday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "16:16",
+        "haiteku-mae": "16:17",
+        "miyatake": "16:19",
+        "todashino": "16:20",
+        "iwamoto": "16:21",
+        "hon-tsurugi": "16:24",
+        "tsurugi-honmachi": "16:26",
+        "tsurugi": "16:29"
+      }
+    },
+    {
+      "id": "weekday-to-tsurugi-015",
+      "serviceId": "weekday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "16:55",
+        "haiteku-mae": "16:56",
+        "miyatake": "16:58",
+        "todashino": "16:59",
+        "iwamoto": "17:00",
+        "hon-tsurugi": "17:03",
+        "tsurugi-honmachi": "17:05",
+        "tsurugi": "17:08"
+      }
+    },
+    {
+      "id": "weekday-to-tsurugi-016",
+      "serviceId": "weekday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "17:32",
+        "haiteku-mae": "17:33",
+        "miyatake": "17:35",
+        "todashino": "17:36",
+        "iwamoto": "17:37",
+        "hon-tsurugi": "17:40",
+        "tsurugi-honmachi": "17:42",
+        "tsurugi": "17:45"
+      }
+    },
+    {
+      "id": "weekday-to-tsurugi-017",
+      "serviceId": "weekday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "18:05",
+        "haiteku-mae": "18:06",
+        "miyatake": "18:08",
+        "todashino": "18:09",
+        "iwamoto": "18:10",
+        "hon-tsurugi": "18:13",
+        "tsurugi-honmachi": "18:15",
+        "tsurugi": "18:18"
+      }
+    },
+    {
+      "id": "weekday-to-tsurugi-018",
+      "serviceId": "weekday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "19:30",
+        "haiteku-mae": "19:31",
+        "miyatake": "19:33",
+        "todashino": "19:34",
+        "iwamoto": "19:35",
+        "hon-tsurugi": "19:38",
+        "tsurugi-honmachi": "19:40",
+        "tsurugi": "19:43"
+      }
+    },
+    {
+      "id": "weekday-to-tsurugi-019",
+      "serviceId": "weekday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "20:12",
+        "haiteku-mae": "20:13",
+        "miyatake": "20:15",
+        "todashino": "20:16",
+        "iwamoto": "20:17",
+        "hon-tsurugi": "20:20",
+        "tsurugi-honmachi": "20:22",
+        "tsurugi": "20:25"
+      }
+    },
+    {
+      "id": "weekday-to-tsurugi-020",
+      "serviceId": "weekday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "20:50",
+        "haiteku-mae": "20:51",
+        "miyatake": "20:53",
+        "todashino": "20:54",
+        "iwamoto": "20:55",
+        "hon-tsurugi": "20:58",
+        "tsurugi-honmachi": "21:00",
+        "tsurugi": "21:03"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-jaist-001",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "7:37",
+        "tsurugi-honmachi": "7:39",
+        "hon-tsurugi": "7:40",
+        "iwamoto": "7:43",
+        "todashino": "7:44",
+        "miyatake": "7:45",
+        "haiteku-mae": "7:47",
+        "jaist": "7:50"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-jaist-002",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "8:16",
+        "tsurugi-honmachi": "8:18",
+        "hon-tsurugi": "8:19",
+        "iwamoto": "8:22",
+        "todashino": "8:23",
+        "miyatake": "8:24",
+        "haiteku-mae": "8:26",
+        "jaist": "8:28"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-jaist-003",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "8:57",
+        "tsurugi-honmachi": "8:59",
+        "hon-tsurugi": "9:00",
+        "iwamoto": "9:03",
+        "todashino": "9:04",
+        "miyatake": "9:05",
+        "haiteku-mae": "9:07",
+        "jaist": "9:10"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-jaist-004",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "9:38",
+        "tsurugi-honmachi": "9:40",
+        "hon-tsurugi": "9:41",
+        "iwamoto": "9:44",
+        "todashino": "9:45",
+        "miyatake": "9:46",
+        "haiteku-mae": "9:48",
+        "jaist": "9:51"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-jaist-005",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "10:12",
+        "tsurugi-honmachi": "10:14",
+        "hon-tsurugi": "10:15",
+        "iwamoto": "10:18",
+        "todashino": "10:19",
+        "miyatake": "10:20",
+        "haiteku-mae": "10:22",
+        "jaist": "10:25"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-jaist-006",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "11:22",
+        "tsurugi-honmachi": "11:24",
+        "hon-tsurugi": "11:25",
+        "iwamoto": "11:28",
+        "todashino": "11:29",
+        "miyatake": "11:30",
+        "haiteku-mae": "11:32",
+        "jaist": "11:35"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-jaist-007",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "12:16",
+        "tsurugi-honmachi": "12:18",
+        "hon-tsurugi": "12:19",
+        "iwamoto": "12:22",
+        "todashino": "12:23",
+        "miyatake": "12:24",
+        "haiteku-mae": "12:26",
+        "jaist": "12:29"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-jaist-008",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "12:58",
+        "tsurugi-honmachi": "13:00",
+        "hon-tsurugi": "13:01",
+        "iwamoto": "13:04",
+        "todashino": "13:05",
+        "miyatake": "13:06",
+        "haiteku-mae": "13:08",
+        "jaist": "13:11"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-jaist-009",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "13:38",
+        "tsurugi-honmachi": "13:40",
+        "hon-tsurugi": "13:41",
+        "iwamoto": "13:44",
+        "todashino": "13:45",
+        "miyatake": "13:46",
+        "haiteku-mae": "13:48",
+        "jaist": "13:51"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-jaist-010",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "14:35",
+        "tsurugi-honmachi": "14:37",
+        "hon-tsurugi": "14:38",
+        "iwamoto": "14:41",
+        "todashino": "14:42",
+        "miyatake": "14:43",
+        "haiteku-mae": "14:45",
+        "jaist": "14:48"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-jaist-011",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "15:08",
+        "tsurugi-honmachi": "15:10",
+        "hon-tsurugi": "15:11",
+        "iwamoto": "15:14",
+        "todashino": "15:15",
+        "miyatake": "15:16",
+        "haiteku-mae": "15:18",
+        "jaist": "15:21"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-jaist-012",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "15:45",
+        "tsurugi-honmachi": "15:47",
+        "hon-tsurugi": "15:48",
+        "iwamoto": "15:51",
+        "todashino": "15:52",
+        "miyatake": "15:53",
+        "haiteku-mae": "15:55",
+        "jaist": "15:58"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-jaist-013",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "16:33",
+        "tsurugi-honmachi": "16:35",
+        "hon-tsurugi": "16:36",
+        "iwamoto": "16:39",
+        "todashino": "16:40",
+        "miyatake": "16:41",
+        "haiteku-mae": "16:43",
+        "jaist": "16:46"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-jaist-014",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "17:10",
+        "tsurugi-honmachi": "17:12",
+        "hon-tsurugi": "17:13",
+        "iwamoto": "17:16",
+        "todashino": "17:17",
+        "miyatake": "17:18",
+        "haiteku-mae": "17:20",
+        "jaist": "17:23"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-jaist-015",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "17:47",
+        "tsurugi-honmachi": "17:49",
+        "hon-tsurugi": "17:50",
+        "iwamoto": "17:53",
+        "todashino": "17:54",
+        "miyatake": "17:55",
+        "haiteku-mae": "17:57",
+        "jaist": "18:00"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-jaist-016",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "18:47",
+        "tsurugi-honmachi": "18:49",
+        "hon-tsurugi": "18:50",
+        "iwamoto": "18:53",
+        "todashino": "18:54",
+        "miyatake": "18:55",
+        "haiteku-mae": "18:57",
+        "jaist": "19:00"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-jaist-017",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "19:45",
+        "tsurugi-honmachi": "19:47",
+        "hon-tsurugi": "19:48",
+        "iwamoto": "19:51",
+        "todashino": "19:52",
+        "miyatake": "19:53",
+        "haiteku-mae": "19:55",
+        "jaist": "19:58"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-jaist-018",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "20:27",
+        "tsurugi-honmachi": "20:29",
+        "hon-tsurugi": "20:30",
+        "iwamoto": "20:33",
+        "todashino": "20:34",
+        "miyatake": "20:35",
+        "haiteku-mae": "20:37",
+        "jaist": "20:40"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-jaist-019",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-jaist",
+      "timesByStopId": {
+        "tsurugi": "21:08",
+        "tsurugi-honmachi": "21:10",
+        "hon-tsurugi": "21:11",
+        "iwamoto": "21:14",
+        "todashino": "21:15",
+        "miyatake": "21:16",
+        "haiteku-mae": "21:18",
+        "jaist": "21:21"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-tsurugi-001",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "7:20",
+        "haiteku-mae": "7:21",
+        "miyatake": "7:23",
+        "todashino": "7:24",
+        "iwamoto": "7:25",
+        "hon-tsurugi": "7:28",
+        "tsurugi-honmachi": "7:30",
+        "tsurugi": "7:33"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-tsurugi-002",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "8:00",
+        "haiteku-mae": "8:01",
+        "miyatake": "8:03",
+        "todashino": "8:04",
+        "iwamoto": "8:05",
+        "hon-tsurugi": "8:08",
+        "tsurugi-honmachi": "8:10",
+        "tsurugi": "8:13"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-tsurugi-003",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "8:42",
+        "haiteku-mae": "8:43",
+        "miyatake": "8:45",
+        "todashino": "8:46",
+        "iwamoto": "8:47",
+        "hon-tsurugi": "8:50",
+        "tsurugi-honmachi": "8:52",
+        "tsurugi": "8:55"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-tsurugi-004",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "9:20",
+        "haiteku-mae": "9:21",
+        "miyatake": "9:23",
+        "todashino": "9:24",
+        "iwamoto": "9:25",
+        "hon-tsurugi": "9:28",
+        "tsurugi-honmachi": "9:30",
+        "tsurugi": "9:33"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-tsurugi-005",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "9:55",
+        "haiteku-mae": "9:56",
+        "miyatake": "9:58",
+        "todashino": "9:59",
+        "iwamoto": "10:00",
+        "hon-tsurugi": "10:03",
+        "tsurugi-honmachi": "10:05",
+        "tsurugi": "10:08"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-tsurugi-006",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "11:07",
+        "haiteku-mae": "11:08",
+        "miyatake": "11:10",
+        "todashino": "11:11",
+        "iwamoto": "11:12",
+        "hon-tsurugi": "11:15",
+        "tsurugi-honmachi": "11:17",
+        "tsurugi": "11:20"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-tsurugi-007",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "12:01",
+        "haiteku-mae": "12:02",
+        "miyatake": "12:04",
+        "todashino": "12:05",
+        "iwamoto": "12:06",
+        "hon-tsurugi": "12:09",
+        "tsurugi-honmachi": "12:11",
+        "tsurugi": "12:14"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-tsurugi-008",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "12:43",
+        "haiteku-mae": "12:44",
+        "miyatake": "12:46",
+        "todashino": "12:47",
+        "iwamoto": "12:48",
+        "hon-tsurugi": "12:51",
+        "tsurugi-honmachi": "12:53",
+        "tsurugi": "12:56"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-tsurugi-009",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "13:22",
+        "haiteku-mae": "13:23",
+        "miyatake": "13:25",
+        "todashino": "13:26",
+        "iwamoto": "13:27",
+        "hon-tsurugi": "13:30",
+        "tsurugi-honmachi": "13:32",
+        "tsurugi": "13:35"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-tsurugi-010",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "14:20",
+        "haiteku-mae": "14:21",
+        "miyatake": "14:23",
+        "todashino": "14:24",
+        "iwamoto": "14:25",
+        "hon-tsurugi": "14:28",
+        "tsurugi-honmachi": "14:30",
+        "tsurugi": "14:33"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-tsurugi-011",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "14:53",
+        "haiteku-mae": "14:54",
+        "miyatake": "14:56",
+        "todashino": "14:57",
+        "iwamoto": "14:58",
+        "hon-tsurugi": "15:01",
+        "tsurugi-honmachi": "15:03",
+        "tsurugi": "15:06"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-tsurugi-012",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "15:30",
+        "haiteku-mae": "15:31",
+        "miyatake": "15:33",
+        "todashino": "15:34",
+        "iwamoto": "15:35",
+        "hon-tsurugi": "15:38",
+        "tsurugi-honmachi": "15:40",
+        "tsurugi": "15:43"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-tsurugi-013",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "16:16",
+        "haiteku-mae": "16:17",
+        "miyatake": "16:19",
+        "todashino": "16:20",
+        "iwamoto": "16:21",
+        "hon-tsurugi": "16:24",
+        "tsurugi-honmachi": "16:26",
+        "tsurugi": "16:29"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-tsurugi-014",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "16:55",
+        "haiteku-mae": "16:56",
+        "miyatake": "16:58",
+        "todashino": "16:59",
+        "iwamoto": "17:00",
+        "hon-tsurugi": "17:03",
+        "tsurugi-honmachi": "17:05",
+        "tsurugi": "17:08"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-tsurugi-015",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "17:32",
+        "haiteku-mae": "17:33",
+        "miyatake": "17:35",
+        "todashino": "17:36",
+        "iwamoto": "17:37",
+        "hon-tsurugi": "17:40",
+        "tsurugi-honmachi": "17:42",
+        "tsurugi": "17:45"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-tsurugi-016",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "18:32",
+        "haiteku-mae": "18:33",
+        "miyatake": "18:35",
+        "todashino": "18:36",
+        "iwamoto": "18:37",
+        "hon-tsurugi": "18:40",
+        "tsurugi-honmachi": "18:42",
+        "tsurugi": "18:45"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-tsurugi-017",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "19:30",
+        "haiteku-mae": "19:31",
+        "miyatake": "19:33",
+        "todashino": "19:34",
+        "iwamoto": "19:35",
+        "hon-tsurugi": "19:38",
+        "tsurugi-honmachi": "19:40",
+        "tsurugi": "19:43"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-tsurugi-018",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "20:12",
+        "haiteku-mae": "20:13",
+        "miyatake": "20:15",
+        "todashino": "20:16",
+        "iwamoto": "20:17",
+        "hon-tsurugi": "20:20",
+        "tsurugi-honmachi": "20:22",
+        "tsurugi": "20:25"
+      }
+    },
+    {
+      "id": "satSunHoliday-to-tsurugi-019",
+      "serviceId": "satSunHoliday",
+      "directionId": "to-tsurugi",
+      "timesByStopId": {
+        "jaist": "20:50",
+        "haiteku-mae": "20:51",
+        "miyatake": "20:53",
+        "todashino": "20:54",
+        "iwamoto": "20:55",
+        "hon-tsurugi": "20:58",
+        "tsurugi-honmachi": "21:00",
+        "tsurugi": "21:03"
+      }
+    }
+  ]
+}
