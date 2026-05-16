@@ -201,7 +201,7 @@ h2 {
   top: 0;
   z-index: 10;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 6px;
   margin: 8px 0 18px;
   padding: 7px;
@@ -217,11 +217,15 @@ h2 {
 .tab,
 .segmented button {
   min-height: 42px;
+  padding: 0 8px;
   border: 0;
   border-radius: 8px;
   background: transparent;
   color: var(--muted);
+  font-size: 0.88rem;
   font-weight: 820;
+  line-height: 1.1;
+  overflow-wrap: anywhere;
   transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease, color 180ms ease;
 }
 
@@ -267,6 +271,7 @@ h2 {
 .status-panel,
 .section-header,
 .settings-form,
+.notification-panel,
 .empty-state,
 .favorite-card,
 .manage-item,
@@ -289,6 +294,7 @@ h2 {
 .status-panel::before,
 .section-header::before,
 .settings-form::before,
+.notification-panel::before,
 .favorite-card::before,
 .manage-item::before,
 .table-wrap::before {
@@ -617,6 +623,24 @@ h2 {
   background: var(--paper-mint);
 }
 
+.notification-panel {
+  display: grid;
+  gap: 12px;
+  margin-top: 16px;
+  padding: 15px;
+}
+
+.notification-panel::before {
+  background: var(--paper-sky);
+}
+
+.notification-panel p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 760;
+}
+
 label {
   display: grid;
   gap: 6px;
@@ -670,6 +694,24 @@ button:focus-visible {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
+}
+
+.reminder-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.reminder-side {
+  display: grid;
+  gap: 8px;
+  align-content: center;
+}
+
+.reminder-next {
+  color: var(--primary-strong);
+  font-weight: 860;
 }
 
 .table-controls {
@@ -761,12 +803,25 @@ tr:last-child td {
     align-items: end;
   }
 
+  .reminder-form {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .settings-form .primary-action {
     margin-top: 0;
   }
 
+  .reminder-form .primary-action {
+    grid-column: 1 / -1;
+  }
+
   .manage-item {
     grid-template-columns: minmax(0, 1fr) 260px;
+    align-items: center;
+  }
+
+  .notification-panel {
+    grid-template-columns: minmax(0, 1fr) 190px;
     align-items: center;
   }
 }

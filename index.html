@@ -34,6 +34,7 @@
         <button class="tab is-active" type="button" data-view="home" data-i18n="tabs.home">次のバス</button>
         <button class="tab" type="button" data-view="settings" data-i18n="tabs.settings">よく使う</button>
         <button class="tab" type="button" data-view="timetable" data-i18n="tabs.timetable">時刻表</button>
+        <button class="tab" type="button" data-view="reminders" data-i18n="tabs.reminders">リマインダー</button>
       </nav>
 
       <main>
@@ -98,6 +99,40 @@
           <div id="timetableMeta" class="source-note"></div>
           <div id="timetableTable" class="table-wrap"></div>
         </section>
+
+        <section id="remindersView" class="view" aria-labelledby="remindersTitle">
+          <div class="section-header">
+            <p class="section-kicker" data-i18n="reminders.kicker">出発前通知</p>
+            <h2 id="remindersTitle" data-i18n="reminders.title">リマインダー</h2>
+          </div>
+
+          <div class="notification-panel">
+            <p id="notificationStatus"></p>
+            <button id="enableNotificationsButton" class="secondary-action" type="button" data-i18n="reminders.enableNotifications">通知を有効にする</button>
+          </div>
+
+          <form id="reminderForm" class="settings-form reminder-form">
+            <label>
+              <span data-i18n="forms.stop">停留所</span>
+              <select id="reminderStopSelect" required></select>
+            </label>
+            <label>
+              <span data-i18n="forms.direction">方面</span>
+              <select id="reminderDirectionSelect" required></select>
+            </label>
+            <label>
+              <span data-i18n="forms.serviceDay">運行日</span>
+              <select id="reminderServiceSelect" required></select>
+            </label>
+            <label>
+              <span data-i18n="forms.departureTime">出発時刻</span>
+              <select id="reminderTimeSelect" required></select>
+            </label>
+            <button class="primary-action" type="submit" data-i18n="forms.addReminder">リマインダーを追加</button>
+          </form>
+
+          <div id="remindersList" class="manage-list reminder-list"></div>
+        </section>
       </main>
     </div>
 
@@ -106,6 +141,13 @@
         <h2 data-i18n="empty.title">よく使う停留所がありません</h2>
         <p data-i18n="empty.body">追加すると、ホームに次のバスと後続便が表示されます。</p>
         <button class="primary-action" type="button" data-open-settings data-i18n="empty.action">停留所を追加</button>
+      </div>
+    </template>
+
+    <template id="emptyRemindersTemplate">
+      <div class="empty-state">
+        <h2 data-i18n="reminders.emptyTitle">リマインダーがありません</h2>
+        <p data-i18n="reminders.emptyBody">停留所、方面、時刻を選ぶと、出発10分前に通知します。</p>
       </div>
     </template>
 

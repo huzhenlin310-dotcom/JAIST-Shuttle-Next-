@@ -1,4 +1,4 @@
-const CACHE_NAME = "jaist-shuttle-next-v6";
+const CACHE_NAME = "jaist-shuttle-next-v7";
 const ASSETS = [
   "./",
   "./index.html",
@@ -41,5 +41,22 @@ self.addEventListener("fetch", (event) => {
         return response;
       });
     })
+  );
+});
+
+self.addEventListener("notificationclick", (event) => {
+  event.notification.close();
+
+  const targetUrl = event.notification.data?.url || "./";
+  event.waitUntil(
+    clients
+      .matchAll({ type: "window", includeUncontrolled: true })
+      .then((clientList) => {
+        const existingClient = clientList.find((client) => client.url === targetUrl);
+        if (existingClient) {
+          return existingClient.focus();
+        }
+        return clients.openWindow(targetUrl);
+      })
   );
 });
