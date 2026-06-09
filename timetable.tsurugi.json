@@ -1,9 +1,9 @@
 {
   "routeId": "tsurugi",
   "routeName": "JAIST Shuttle Tsurugi Line",
-  "revisionDate": "2026-04-01",
-  "sourceUrl": "https://www.jaist.ac.jp/top/data/shuttle_turugi2026-2.pdf",
-  "accessPageUrl": "https://www.jaist.ac.jp/english/top/access/",
+  "revisionDate": "2026-06-01",
+  "sourceUrl": "https://www.jaist.ac.jp/top/data/shuttle_turugi202606-2.pdf",
+  "accessPageUrl": "https://www.jaist.ac.jp/top/access/",
   "timezone": "Asia/Tokyo",
   "holidayDates": [
     "2026-01-01",
@@ -372,14 +372,14 @@
       "serviceId": "weekday",
       "directionId": "to-jaist",
       "timesByStopId": {
-        "tsurugi": "18:20",
-        "tsurugi-honmachi": "18:22",
-        "hon-tsurugi": "18:23",
-        "iwamoto": "18:26",
-        "todashino": "18:27",
-        "miyatake": "18:28",
-        "haiteku-mae": "18:30",
-        "jaist": "18:33"
+        "tsurugi": "18:47",
+        "tsurugi-honmachi": "18:49",
+        "hon-tsurugi": "18:50",
+        "iwamoto": "18:53",
+        "todashino": "18:54",
+        "miyatake": "18:55",
+        "haiteku-mae": "18:57",
+        "jaist": "19:00"
       }
     },
     {
@@ -672,14 +672,14 @@
       "serviceId": "weekday",
       "directionId": "to-tsurugi",
       "timesByStopId": {
-        "jaist": "18:05",
-        "haiteku-mae": "18:06",
-        "miyatake": "18:08",
-        "todashino": "18:09",
-        "iwamoto": "18:10",
-        "hon-tsurugi": "18:13",
-        "tsurugi-honmachi": "18:15",
-        "tsurugi": "18:18"
+        "jaist": "18:32",
+        "haiteku-mae": "18:33",
+        "miyatake": "18:35",
+        "todashino": "18:36",
+        "iwamoto": "18:37",
+        "hon-tsurugi": "18:40",
+        "tsurugi-honmachi": "18:42",
+        "tsurugi": "18:45"
       }
     },
     {

@@ -1,4 +1,4 @@
-const CACHE_NAME = "jaist-shuttle-next-v7";
+const CACHE_NAME = "jaist-shuttle-next-v8";
 const ASSETS = [
   "./",
   "./index.html",
